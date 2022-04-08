@@ -1,0 +1,123 @@
+/* body{
+    margin-top: -80px;
+} */
+#contact{
+    
+        /* flex: 3; */
+        height: fit-content;
+        margin: 20px;
+        padding-bottom: 30px;
+        background-color: #fdfbfb;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: -50px;
+      
+}
+
+.container.contact{
+    padding: 50px;
+    height: 0%;
+    width: 60%;
+    margin-top: 10%;
+    display:flex;
+    flex-direction: column-reverse;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+h2{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: #222222;
+    font-weight: 600;
+}
+.col-md-3{
+    background: #baeea2;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    height: 520px;
+}
+
+#quote{
+    font-size: 30px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+
+.contact-info{
+    margin-top:100%;
+    font-size: 20px;
+}
+.contact-info img{
+    margin-top: -200px;
+    margin-left: 35px;
+    width: 60px;
+    height: 55px;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #f7f2f2;
+    padding: 3%;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+ 
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 2px solid #5c042800;
+    background-color:#baeea2;
+    color: white!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+    height: 50px;
+    width: 180px;
+    
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 20px;
+
+    margin-top: 20px;
+    
+}
+
+ a{
+    align-items: center;
+   font-size: 20px;
+margin-left: 10%;
+
+}
+
+button:hover {
+    background:#f7f2f2;
+    color: #000!important;
+  }
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.col-sm-2{
+    margin-top: 10px;
+}
