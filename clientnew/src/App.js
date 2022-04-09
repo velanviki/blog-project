@@ -42,11 +42,7 @@ function App() {
     
    
     
-    {/* <Single/> */}
-    {/* <Write/> */}
-    {/* <Settings/> */}
-    {/* <Login/> */}
-    {/* <Register/> */}
+
     
     </Router>
   );
