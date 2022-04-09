@@ -3,7 +3,6 @@ import Header from "../../Components/header/header.jsx";
 import Posts from "../../Components/posts/posts";
 import Sidebar from "../../Components/sidebar/sidebar";
 import { useEffect, useState } from 'react';
-// import axios from "axios";
 import { useLocation } from 'react-router-dom';
 import Contact from "../contact/contact";
 

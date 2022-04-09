@@ -2,7 +2,6 @@ import "./settings.css";
 import Sidebar from "../../Components/sidebar/sidebar";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
-// import axios from "axios";
 import axios from '../../apiConnect'
 
 export default function Settings() {
@@ -47,7 +46,7 @@ export default function Settings() {
       <div className="settingsWrapper">
         <div className="settingsTitle">
           <span className="settingsUpdateTitle">Update Your Account</span>
-          {/* <span className="settingsDeleteTitle">Delete Account</span> */}
+         
         </div>
         <form className="settingsForm" onSubmit={handleSubmit}>
           <label>Profile Picture</label>

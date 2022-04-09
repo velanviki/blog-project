@@ -1,15 +1,12 @@
 import Post from "../post/post";
 import "./posts.css";
 
-export default function Posts({posts}) {
+export default function Posts({ posts }) {
   return (
     <div className="posts">
       {posts.map((p) => (
-         <Post post={p}  />
+        <Post post={p} />
       ))}
-      
-     
-     
     </div>
   );
 }

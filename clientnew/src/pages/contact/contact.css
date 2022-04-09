@@ -44,7 +44,7 @@ h2{
     font-weight: 600;
 }
 .col-md-3{
-    background: #baeea2;
+    background:rgb(117, 228, 167);
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -86,7 +86,7 @@ h2{
     font-weight: 500;
     border-radius: 15px;
     border: 2px solid #5c042800;
-    background-color:#baeea2;
+    background-color:rgb(117, 228, 167);
     color: white!important;
     text-transform: uppercase;
     letter-spacing: 2px;

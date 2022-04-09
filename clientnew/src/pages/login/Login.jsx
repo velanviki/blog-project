@@ -1,9 +1,8 @@
 import './login.css';
-// import axios from "axios";
 import axios from '../../apiConnect'
 import { Context } from "../../context/Context";
 import {useContext, useRef } from "react";
-// import { Link } from 'react-router-dom';
+
 
 export default function Login() {
   const emailRef = useRef();
@@ -43,11 +42,7 @@ export default function Login() {
       <button className="loginButton" type="submit" disabled={isFetching} >Login</button>
     </form>
     
-      {/* <button className="loginRegisterButton">
-        <Link className='link' to="/register">
-        Register
-        </Link>
-        </button> */}
+    
   </div>
   )
 }

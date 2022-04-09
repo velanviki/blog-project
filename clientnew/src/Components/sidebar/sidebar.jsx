@@ -1,18 +1,6 @@
-// import axios from "axios";
-// import { useEffect, useState } from "react";
 import "./sidebar.css";
-// import { Link } from "react-router-dom";
 
 export default function Sidebar() {
-  // const [cat, setCat] = useState([]);
-
-  // useEffect(() => {
-  //   const getCats = async () => {
-  //     const res = await axios.get("/categories");
-  //     setCat(res.data);
-  //   };
-  //   getCats();
-  // }, []);
   return (
     <div className="sidebar" id="about">
       <div className="sidebarItem">
@@ -22,28 +10,20 @@ export default function Sidebar() {
           alt=""
         />
         <p>
-        Raise your hand if you’ve ever felt like writing an About Me page was the hardest thing to do.
-
-When you open up your page, you’re hit with the same boring words about you and your pets no one but you care about, and you can’t help wondering how the pros write about me pages that leap at you and grab you with both hands.
-
-It’s daunting enough talking about yourself to the neighbors – never mind putting together an about page to be seen by your hundreds (or hundreds of thousands) of unique visitors!
-
-Well, there’s good news: Writing a great about me page doesn’t have to be that daunting. With the right information at your disposal, you could easily create an engaging about me page — and without doling out huge sums to a copywriter too!
+          Raise your hand if you’ve ever felt like writing an About Me page was
+          the hardest thing to do. When you open up your page, you’re hit with
+          the same boring words about you and your pets no one but you care
+          about, and you can’t help wondering how the pros write about me pages
+          that leap at you and grab you with both hands. It’s daunting enough
+          talking about yourself to the neighbors – never mind putting together
+          an about page to be seen by your hundreds (or hundreds of thousands)
+          of unique visitors! Well, there’s good news: Writing a great about me
+          page doesn’t have to be that daunting. With the right information at
+          your disposal, you could easily create an engaging about me page — and
+          without doling out huge sums to a copywriter too!
         </p>
       </div>
-      {/* <div className="sidebarItem">
-        <span className="sidebarTitle">CATEGORIES</span>
-        <ul className="sidebarList">
-          {cat.map((c) => (
-            <li className="sidebarListItem">
-              {c.name}
-              <Link className="link" to="/posts?cat=Life">
-                     Life
-                  </Link>
-            </li>
-          ))}
-        </ul>
-      </div> */}
+
       <div className="sidebarItem">
         <span className="sidebarTitleS">FOLLOW US</span>
         <div className="sidebarSocial">
