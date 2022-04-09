@@ -1,5 +1,5 @@
 
-
+const cors = require('cors');
 const express = require('express');
 const app =express();
 const dotenv = require('dotenv');
@@ -23,7 +23,7 @@ app.use("/categories",catRoute);
 
 app.use("/images",express.static(path.join(__dirname,"/images")));
 
-
+app.use(cors());
 
 app.use("/l",(req,res) => {
     res.send("Hello blog")
