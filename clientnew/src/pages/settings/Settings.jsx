@@ -2,7 +2,8 @@ import "./settings.css";
 import Sidebar from "../../Components/sidebar/sidebar";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
-import axios from "axios";
+// import axios from "axios";
+import axios from '../../apiConnect'
 
 export default function Settings() {
   const [file, setFile] = useState(null);
@@ -12,7 +13,7 @@ export default function Settings() {
   const [success, setSuccess] = useState(false);
 
   const { user, dispatch } = useContext(Context);
-  const PF = "https://blogs-vi.herokuapp.com/images/";
+  const PF = "https://blogs-viki.herokuapp.com/images/";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

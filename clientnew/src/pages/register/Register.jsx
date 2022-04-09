@@ -1,7 +1,8 @@
 import "./register.css"
 import {useState} from "react";
 // import { Link } from "react-router-dom";
-import axios from "axios"
+// import axios from "axios"
+import axios from '../../apiConnect'
 export default function Register() {
   const [username,setUsername] = useState("")
   const [email,setEmail] = useState("")

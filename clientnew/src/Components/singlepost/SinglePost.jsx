@@ -10,7 +10,7 @@ export default function SinglePost() {
   const path = location.pathname.split("/")[2];
   // console.log(path)
   const [post,setPost] = useState({})
-  const PF = "https://blogs-vi.herokuapp.com/images/";
+  const PF = "https://blogs-viki.herokuapp.com/images/";
   const{user} = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");

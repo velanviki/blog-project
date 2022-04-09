@@ -1,4 +1,5 @@
-import axios from 'axios';
+// import axios from 'axios';
+import axios from '../../apiConnect'
 import { useContext, useState } from 'react'
 import { Context } from '../../context/Context';
 import './write.css'

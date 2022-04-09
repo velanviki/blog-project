@@ -15,7 +15,7 @@ const path = require("path")
 
 dotenv.config();
 app.use(express.json());
-
+app.use(cors());
 app.use("/auth",authRoute);
 app.use("/users",userRoute);
 app.use("/posts",postsRoute);
@@ -23,7 +23,7 @@ app.use("/categories",catRoute);
 
 app.use("/images",express.static(path.join(__dirname,"/images")));
 
-app.use(cors());
+
 
 app.use("/l",(req,res) => {
     res.send("Hello blog")
