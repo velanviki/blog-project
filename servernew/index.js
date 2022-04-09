@@ -28,6 +28,7 @@ app.use("/images",express.static(path.join(__dirname,"/images")));
 app.use("/l",(req,res) => {
     res.send("Hello blog")
 })
+
 const PORT = process.env.PORT || 4000;
 const MONGO_URL="mongodb+srv://Velan:Velandb321@cluster0.gd7mq.mongodb.net/blog?retryWrites=true&w=majority"
 
