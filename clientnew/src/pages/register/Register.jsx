@@ -18,7 +18,8 @@ export default function Register() {
         email,
         password,
       });
- res.data && window.location.replace("/login")
+//  res.data && window.location.replace("/login")
+alert("Register Successfully")
     } catch (error) {
       setError(true)
       alert("User already Exist")
