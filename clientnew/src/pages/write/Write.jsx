@@ -33,7 +33,8 @@ if(file){
 try {
   const res = await axios.post("/posts",newPost);
 // window.location.replace("https://blogs-viki.herokuapp.com/post/"+res.data._id)
-<span>Published</span>
+alert("Published")
+
 } catch (error) {
   console.log(error)
 }
